@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+
+}
+.bg-dark, header {
+  background-color: #fff !important;
+}
+
+/* Ajustes para el cuadro de login */
+.containe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px);
+}
+
+.xd {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.xd h3 {
+  text-align: center;
+}
+
+.mate-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mate1,
+.mate2 {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+p{
+  color: #000 !important;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+}

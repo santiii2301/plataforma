@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0; /* Asegura que no haya espacios innecesarios alrededor del cuerpo */
+  }
+
+  .bg-dark {
+    background-color: #fff !important;
+    color: #000 !important; /* Asegura que el texto dentro de .bg-dark sea legible */
+  }
+
+  /* esta es la parte del main */
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* En lugar de height, usaremos min-height para asegurarnos de que el contenido se ajuste en cualquier pantalla */
+    padding: 20px;
+  }
+
+  .containe {
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  table {
+    text-align: center;
+  }
+
+  td,
+  th {
+    padding: 5px 10px;
+    border: 1px solid #000;
+  }
+
+  .celda_1,
+  .celda_3 {
+    text-align: left;
+  }
+
+  /* Agregamos margen superior al section para evitar que el título quede tapado por el navbar */
+  section {
+    margin-top: 50px;
+  }
+
+  /* esta es la parte del footer */
+  footer {
+    bottom: 0;
+    width: auto;
+    padding: 10px 0; /* Agrega espacio entre el contenido y el footer */
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../recursos/librerias/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <!-- aquí va el navbar -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../recursos/iconos/escudo.ico" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Sagrado Corazón de Jesús
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- aquí va el formulario -->
+    <div class="container main-container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="card shadow">
+            <div class="card-body">
+              <h3 class="text-center mb-4">Iniciar sesión</h3>
+              <form onsubmit="validarCredenciales(event)">
+                <div class="form-group">
+                  <label for="usuario">Usuario:</label>
+                  <input type="text" class="form-control" id="usuario" placeholder="Ingresa tu usuario">
+                </div>
+                <div class="form-group">
+                  <label for="password">Contraseña:</label>
+                  <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+                </div>
+                <div class="boto">
+                  <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer bg-dark text-white text-center py-3">
+    <!-- aquí va el pie de página -->
+    <div class="container">
+      <p>&copy; 2023 Los Senior</p>
+    </div>
+  </footer>
+  <script src="./funciones.js"></script>
+  <script src="../recursos/librerias/bootstrap.bundle.js"></script>
+</body>
+</html>

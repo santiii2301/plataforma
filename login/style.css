@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+}
+.bg-dark, header {
+    background-color: #fff !important;
+}
+p{
+    color: #000 !important;
+}
+.main-container{
+    padding-top: 60px;
+}
+th, td{
+    width: 60px !important;
+}
+.boto{
+    padding-top: 20px !important;
+    display: flex;
+    justify-content: center;
+ }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+  /* Custom styles can be added here for further design enhancement */
