@@ -7,9 +7,9 @@ function validarCredenciales(event) {
 
   // Validar las credenciales y redirigir según el caso
   if (usuario === "profesor123" && contrasena === "123456") {
-    window.location.href = "../interfaz_maestro/materias/index.html";
+    window.location.href = "./html/materias.html";
   } else if (usuario === "estudiante123" && contrasena === "123456") {
-    window.location.href = "../interfaz_estudiante/index.html";
+    window.location.href = "./html/interfaz-estudiante.html";
   } else {
     alert("Credenciales inválidas. Inténtalo nuevamente.");
   }
