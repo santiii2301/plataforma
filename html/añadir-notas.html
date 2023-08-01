@@ -21,13 +21,13 @@
 
   <main>
     <div class="main-container">
-      <div class="containe">
+      <div class="conta">
           <section>
-              <p>grupo: 0-00</p>
-              <p>añadir nota del estudiante:<br><b>nombre del estudiante</b></p>
+              <p class="text-center">grupo: 0-00</p>
+              <p class="text-center">añadir nota del estudiante:<br><b>nombre del estudiante</b></p>
               <div class="table-responsive">
                 <form action="#">
-                  <table id="miTabla">
+                  <table id="miTabla" >
                     <thead>
                       <tr>
                         <th>Nombre de la actividad</th>
@@ -38,10 +38,10 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td><input type="text" name="actividad[]" placeholder="añadir la actividad"/></td>
-                        <td><input type="number" name="nota[]" placeholder="añadir nota"/></td>
+                        <td><input type="text" name="actividad[]"  placeholder="añadir la actividad"/></td>
+                        <td><input type="number" name="nota[]"  placeholder="añadir nota"/></td>
                         <td>
-                          <select name="porcentaje[]">
+                          <select name="porcentaje[]" >
                             <option value="0">0%</option>
                             <option value="10">10%</option>
                             <option value="20">20%</option>
@@ -77,7 +77,7 @@
 
   <footer class="footer bg-dark text-white text-center py-3">
     <!-- aqui va el pie de pagina -->
-    <div class="container">
+    <div class="container-fluid">
       <p>&copy; 2023 Los Senior</p>
     </div>
   </footer>

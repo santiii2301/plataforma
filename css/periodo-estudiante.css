@@ -1,64 +1,33 @@
 /* Estilos generales */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  height: 150vh;
-  margin: 0; /* Asegura que no haya espacios innecesarios alrededor del cuerpo */
+  background-color: #dbdbdb;
+  margin: 0;
 }
 
-.bg-dark {
-  background-color: #fff !important;
-  color: #000 !important; /* Asegura que el texto dentro de .bg-dark sea legible */
-}
-
-/* esta es la parte del main */
-.regre{
-  display: flex;
-  justify-content: left;
-}
+/* Estilos del contenido principal (main) */
 .main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-}
-.containe{
   padding: 20px;
   border-radius: 10px;
-  padding-top: 80px;
-}
-.add{
-  padding: 20px;
-
-}
-
-
-h3{
+  margin-top: 80px;
   text-align: center;
 }
-td, th{
-  padding: 30px !important;
-  width: 35px !important;
-  border: 1px solid #000;
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
   border: 1px solid #000;
 }
 
-
-p{
-  text-align: center;
-}
-.boto{
-  text-align: center;
-}
-
-/* esta es la parte del footer */
+/* Estilos del pie de página (footer) */
 footer {
-  bottom: 0;
-  width: auto;
-  padding: 10px 0; /* Agrega espacio entre el contenido y el footer */
-  background-color: #000;
-  color: #fff;
+  padding: 10px 0;
   text-align: center;
 }
+
 

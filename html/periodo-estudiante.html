@@ -20,18 +20,16 @@
   </header>
 
   <main>
-    <div class=" main-container">
-
-      <div class="containe">
+    <div class="main-container">
+      <div class="container">
         <div class="regre">
-          <a href="../html/materias.html">regresar</a>
+          <a href="../html/materias.html">Regresar</a>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <label for="notas1">Actualizar notas</label>
-              <select name="añadir" id="notas1" class="form-select" onchange="redireccionar1()">
-                <option value="">Elige el nombre de un alumno</option>
+        <div class="row">
+          <div class="col">
+            <label for="notas1">Actualizar notas</label>
+            <select name="añadir" id="notas1" class="form-select" onchange="redireccionar1()">
+                  <option value="">Elige el nombre de un alumno</option>
                 <option value="../html/actualizar-notas.html">alumno 1</option>
                 <option value="../html/actualizar-notas.html">alumno 2</option>
                 <option value="../html/actualizar-notas.html">alumno 3</option>
@@ -42,11 +40,11 @@
                 <option value="../html/actualizar-notas.html">alumno 8</option>
                 <option value="../html/actualizar-notas.html">alumno 9</option>
                 <option value="../html/actualizar-notas.html">alumno 10</option>
-              </select>
-            </div>
-            <div class="col">
-              <label for="notas2">Añadir notas</label>
-              <select name="añadir" id="notas2" class="form-select" onchange="redireccionar2()">
+            </select>
+          </div>
+          <div class="col">
+            <label for="notas2">Añadir notas</label>
+            <select name="añadir" id="notas2" class="form-select" onchange="redireccionar2()">
                 <option value="">Elige el nombre de un alumno</option>
                 <option value="../html/añadir-notas.html">alumno 1</option>
                 <option value="../html/añadir-notas.html">alumno 2</option>
@@ -58,76 +56,44 @@
                 <option value="../html/añadir-notas.html">alumno 8</option>
                 <option value="../html/añadir-notas.html">alumno 9</option>
                 <option value="../html/añadir-notas.html">alumno 10</option>
-              </select>
-            </div>
+            </select>
           </div>
         </div>
-        <div class="table-wrapper table-responsive">
-          <table class="table table-sm ">
-            <caption><h3>periodo</h3></caption>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>apellidos</th>
-                <th>nombres</th>
-                <th>actividades</th>
-                <th>notas</th>
-                <th>D.F</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>01</td>
-                <td>capinoa rojas</td>
-                <td>santiago gerardo</td>
-                <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
-                <td>
-                  <!-- esta parte la cambie -->
-                  <ul>
-                      <li>50</li>
-                      <li>70</li>
-                      <li>100</li>
-                      <li>100</li>
-                  </ul>
-                  <!-- fin de la parte que cambie -->
-                </td>
-                <td id="promadio 1">100</td>
-              </tr>
+      </div>
 
+      <div class="table-wrapper table-responsive">
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>apellidos</th>
+              <th>nombres</th>
+              <th>actividades</th>
+              <th>notas</th>
+              <th>D.F</th>
+            </tr>
+          </thead>
+          <tbody>
               <tr>
-                <td>02</td>
-                <td>capinoa rojas</td>
-                <td>santiago gerardo</td>
-                <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
-                <td>
-                  <ul>
-                      <li>100</li>
-                      <li>100</li>
-                      <li>100</li>
-                      <li>100</li>
-                  </ul>
-                </td>
-                <td id="promadio 2">100</td>
-              </tr>
-
-              <tr>
-                  <td>03</td>
+                  <td>01</td>
                   <td>capinoa rojas</td>
                   <td>santiago gerardo</td>
                   <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
                   <td>
+
                     <ul>
-                        <li>100</li>
-                        <li>100</li>
+                        <li>50</li>
+                        <li>70</li>
                         <li>100</li>
                         <li>100</li>
                     </ul>
+
                   </td>
-                  <td id="promadio 3">100</td>
+                  <td id="promadio 1">100</td>
                 </tr>
 
                 <tr>
-                  <td>04</td>
+                  <td>02</td>
                   <td>capinoa rojas</td>
                   <td>santiago gerardo</td>
                   <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
@@ -139,90 +105,121 @@
                         <li>100</li>
                     </ul>
                   </td>
-                  <td id="promadio 4">100</td>
+                  <td id="promadio 2">100</td>
                 </tr>
+
                 <tr>
-                  <td>05</td>
-                  <td>capinoa rojas</td>
-                  <td>santiago gerardo</td>
-                  <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
-                  <td>
-                    <ul>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                    </ul>
-                  </td>
-                  <td id="promadio 5">100</td>
-                </tr>
-                <tr>
-                  <td>06</td>
-                  <td>capinoa rojas</td>
-                  <td>santiago gerardo</td>
-                  <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
-                  <td>
-                    <ul>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                    </ul>
-                  </td>
-                  <td id="promadio 6">100</td>
-                </tr>
-                <tr>
-                  <td>07</td>
-                  <td>capinoa rojas</td>
-                  <td>santiago gerardo</td>
-                  <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
-                  <td>
-                    <ul>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                    </ul>
-                  </td>
-                  <td id="promadio 7">100</td>
-                </tr>
-                <tr>
-                  <td>08</td>
-                  <td>capinoa rojas</td>
-                  <td>santiago gerardo</td>
-                  <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
-                  <td>
-                    <ul>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                    </ul>
-                  </td>
-                  <td id="promadio 8">100</td>
-                </tr>
-            </tbody>
-          </table>
-        </div>
-        <p>grupo 0-00</p>
-        <div class="boto">
-          <input type="button" value="1P">
-          <input type="button" value="2P">
-          <input type="button" value="3P">
-          <input type="button" value="4P">
-        </div>
+                    <td>03</td>
+                    <td>capinoa rojas</td>
+                    <td>santiago gerardo</td>
+                    <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
+                    <td>
+                      <ul>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                      </ul>
+                    </td>
+                    <td id="promadio 3">100</td>
+                  </tr>
+
+                  <tr>
+                    <td>04</td>
+                    <td>capinoa rojas</td>
+                    <td>santiago gerardo</td>
+                    <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
+                    <td>
+                      <ul>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                      </ul>
+                    </td>
+                    <td id="promadio 4">100</td>
+                  </tr>
+                  <tr>
+                    <td>05</td>
+                    <td>capinoa rojas</td>
+                    <td>santiago gerardo</td>
+                    <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
+                    <td>
+                      <ul>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                      </ul>
+                    </td>
+                    <td id="promadio 5">100</td>
+                  </tr>
+                  <tr>
+                    <td>06</td>
+                    <td>capinoa rojas</td>
+                    <td>santiago gerardo</td>
+                    <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
+                    <td>
+                      <ul>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                      </ul>
+                    </td>
+                    <td id="promadio 6">100</td>
+                  </tr>
+                  <tr>
+                    <td>07</td>
+                    <td>capinoa rojas</td>
+                    <td>santiago gerardo</td>
+                    <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
+                    <td>
+                      <ul>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                      </ul>
+                    </td>
+                    <td id="promadio 7">100</td>
+                  </tr>
+                  <tr>
+                    <td>08</td>
+                    <td>capinoa rojas</td>
+                    <td>santiago gerardo</td>
+                    <td>actividad 1<br>actividad 2<br>actividad 3<br>actividad 4</td>
+                    <td>
+                      <ul>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                          <li>100</li>
+                      </ul>
+                    </td>
+                    <td id="promadio 8">100</td>
+                  </tr>
+          </tbody>
+        </table>
+      </div>
+      <caption><h3>periodo</h3></caption>
+      <p>grupo 0-00</p>
+      <div class="boto">
+        <input type="button" value="1P">
+        <input type="button" value="2P">
+        <input type="button" value="3P">
+        <input type="button" value="4P">
       </div>
     </div>
   </main>
 
-  <footer class="footer bg-dark text-white text-center py-3">
-    <!-- aqui va el pie de pagina -->
+  <footer class="footer bg-light text-black text-center py-3">
     <div class="container">
       <p>&copy; 2023 Los Senior</p>
     </div>
   </footer>
 
-<script src="../recursos/librerias/bootstrap.bundle.js"></script>
-<script src="../js/periodo-estudiante.js"></script>
+  <script src="../recursos/librerias/bootstrap.bundle.js"></script>
+  <script src="../js/periodo-estudiante.js"></script>
 </body>
 </html>
