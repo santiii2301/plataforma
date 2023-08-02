@@ -1,5 +1,5 @@
 function agregarFila() {
-    var table = document.getElementById('miTabla').getElementsByTagName('tbody')[0];
+    var table = document.getElementById('miTablita').getElementsByTagName('tbody')[0];
     var numRows = table.rows.length;
 
     if (numRows >= 5) {
@@ -13,9 +13,9 @@ function agregarFila() {
     for (var i = 0; i < columns; i++) {
       var cell = newRow.insertCell(i);
       if (i === 0) {
-        cell.innerHTML = '<input type="text" name="actividad[]" />';
+        cell.innerHTML = '<input type="text" placeholder="nombre de la actividad" name="actividad[]" />';
       } else if (i === 1) {
-        cell.innerHTML = '<input type="number" name="nota[]" />';
+        cell.innerHTML = '<input type="number" placeholder="añadir nota" name="nota[]" />';
       } else if (i === 2) {
         cell.innerHTML = `
           <select name="porcentaje[]">
