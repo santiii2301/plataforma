@@ -1,59 +1,65 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0; /* Asegura que no haya espacios innecesarios alrededor del cuerpo */
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
 
-  .bg-dark {
-    background-color: #fff !important;
-    color: #000 !important; /* Asegura que el texto dentro de .bg-dark sea legible */
-  }
+/* Estilos para hacer la tabla responsive */
+.table-responsive {
+  overflow-x: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-  /* esta es la parte del main */
-  .main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* En lugar de height, usaremos min-height para asegurarnos de que el contenido se ajuste en cualquier pantalla */
-    padding: 20px;
-  }
+.mt-5 {
+  margin-top: 4rem!important;
+}
+.table {
+  margin: 0 auto; /* Ajusta la tabla al centro */
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+}
 
-  .containe {
-    padding: 20px;
-    border-radius: 10px;
-  }
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border: 1px solid #000 !important;
+}
 
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #dee2e6;
+}
+
+/* Estilos responsive */
+/* Cuando el ancho de la pantalla es menor o igual a 768px */
+@media (max-width: 768px) {
   h2 {
-    text-align: center;
+    font-size: 1.5rem;
   }
-
-  table {
-    text-align: center;
+  .table-responsive {
+    overflow-x: scroll;
   }
-
   td,
   th {
-    padding: 5px 10px;
-    border: 1px solid #000;
+    font-size: 0.8rem;
   }
+}
 
-  .celda_1,
-  .celda_3 {
-    text-align: left;
-  }
 
-  /* Agregamos margen superior al section para evitar que el título quede tapado por el navbar */
-  section {
-    margin-top: 50px;
-  }
-
-  /* esta es la parte del footer */
-  footer {
-    bottom: 0;
-    width: auto;
-    padding: 10px 0; /* Agrega espacio entre el contenido y el footer */
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-  }

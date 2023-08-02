@@ -9,150 +9,146 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="../recursos/iconos/escudo.ico" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-              sagrado corazon de jesus
-            </a>
-          </div>
-        </nav>
-      </header>
-    <main>
-        <div class="main-container">
-            <div class="containe">
-                <section>
-                    <h2>boletin de notas</h2>
-                    <div class="table-responsive">
-                        <table class="table" id="tabla-notas">
-                            <thead>
-                                <tr>
-                                    <td class="celda_1" colspan="3">nombre:santiago capinoa</td>
-                                    <td class="celda_1" colspan="3">año escolar:2023</td>
-                                </tr>
-                                <tr>
-                                    <td class="celda_1" colspan="3">grado:0-00</td>
-                                    <td class="celda_1" colspan="3">periodo:1</td>
-                                </tr>
-                                <tr>
-                                    <td class="celda_1" colspan="3">profesor:trujillo</td>
-                                    <td class="celda_1" colspan="3">fecha:00-00-0000</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th>tema</th>
-                                    <th>periodo 1</th>
-                                    <th>periodo 2</th>
-                                    <th>periodo 3</th>
-                                    <th>periodo 4</th>
-                                    <th>definitiva</th>
-                                </tr>
-                                <tr>
-                                    <td>matematicas</td>
-                                    <td>10</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>C.naturales</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>C.sociales</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>etica</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>edu.fisica</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>informatica</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>artistica</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>ingles</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>religion</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                                <tr>
-                                    <td>materia 10</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                    <td>100</td>
-                                </tr>
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td class="celda_3" colspan="3">ausencias: 0</td>
-                                    <td class="celda_3" colspan="3">tardias: 0</td>
-                                </tr>
-                                <tr>
-                                    <td class="celda_3" colspan="3">despidos anticipados: 0</td>
-                                    <td class="celda_3" colspan="3">sanciones: 0</td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                    </div>
-                </section>
-
-            </div>
-        </div>
-    </main>
-    <footer class="footer bg-dark text-white text-center py-3">
-        <!-- aqui va el pie de pagina -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
         <div class="container">
-          <p>&copy; 2023 Los Senior</p>
+          <a class="navbar-brand" href="#">
+            <img src="../recursos/iconos/escudo.ico" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            sagrado corazon de jesus
+          </a>
         </div>
-      </footer>
-      <script src="../recursos/librerias/bootstrap.bundle.js"></script>
+      </nav>
+    </header>
+    <main class="container mt-5"> <!-- Añadimos un margen superior para evitar que el navbar tape el contenido -->
+      <section>
+        <h2 class="text-center">boletin de notas</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered" id="tabla-notas">
+            <thead>
+              <tr>
+                <td class="celda_1" colspan="3">nombre:santiago capinoa</td>
+                <td class="celda_1" colspan="3">año escolar:2023</td>
+              </tr>
+              <tr>
+                  <td class="celda_1" colspan="3">grado:0-00</td>
+                  <td class="celda_1" colspan="3">periodo:1</td>
+              </tr>
+              <tr>
+                  <td class="celda_1" colspan="3">profesor:trujillo</td>
+                  <td class="celda_1" colspan="3">fecha:00-00-0000</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>tema</th>
+                <th>periodo 1</th>
+                <th>periodo 2</th>
+                <th>periodo 3</th>
+                <th>periodo 4</th>
+                <th>definitiva</th>
+              </tr>
+              <tr>
+                  <td>matematicas</td>
+                  <td>10</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>C.naturales</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>C.sociales</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>etica</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>edu.fisica</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>informatica</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>artistica</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>ingles</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>religion</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+              <tr>
+                  <td>materia 10</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>100</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td class="celda_3" colspan="3">ausencias: 0</td>
+                <td class="celda_3" colspan="3">tardias: 0</td>
+              </tr>
+              <tr>
+                  <td class="celda_3" colspan="3">despidos anticipados: 0</td>
+                  <td class="celda_3" colspan="3">sanciones: 0</td>
+              </tr>
+            </tfoot>
+
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer class="footer bg-light text-black text-center py-3">
+      <!-- aquí va el pie de página -->
+      <div class="container">
+        <p>&copy; 2023 Los Senior</p>
+      </div>
+    </footer>
+    <script src="../recursos/librerias/bootstrap.bundle.js"></script>
     <script src="../js/interfaz-estudiante.js"></script>
-</body>
+  </body>
 </html>
