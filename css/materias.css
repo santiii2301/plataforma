@@ -49,13 +49,16 @@ select {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-
+.mt-5{
+  margin-top: 0 !important;
+}
 p{
   color: #000 !important;
 }
 
 footer {
-  position: absolute;
+  position:fixed;
   bottom: 0;
   width: 100%;
+
 }
